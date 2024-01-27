@@ -12,7 +12,7 @@ public class App2 {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         // 获取资源
-        BookService bookservice = (BookService) ctx.getBean('BookService');
+        BookService bookservice = (BookService) ctx.getBean('bookService');
 
 
     }
